@@ -64,7 +64,7 @@ class SystemPortal
             puts
             puts "Enter your password"
             input_pass = gets.chomp
-if found_user.password == input_pass
+            if found_user.password == input_pass
                 puts "Welcome #{found_user.username}"
                 puts
 
